@@ -25,7 +25,7 @@ main {
     max-width: 425px;
 }
 
-.pokemon-img {
+.pokemon-image {
     position: absolute;
     left: 33%;
     top: 20%;
@@ -36,11 +36,11 @@ main {
     color: #4B4B4B;
     position: absolute;
     top: 33.5%;
-    left: 38%;
-    font-size: 28px;
+    right: 17%;
+    font-size: clamp(8px, 5vw, 25px);
 }
 
-.pokemon_name {
+.pokemon-name {
     color: #212121;
     text-transform: capitalize;
 }

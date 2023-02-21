@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon.png">
-    <script src="script.js"></script>
     <title>Pokedex</title>
 </head>
 
@@ -16,17 +15,21 @@
         <!-- <div>
             <img src="/assets/pokedex inicial.jpg" alt="">
         </div> -->
-        <img class="pokemon-img"
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
+        <img class="pokemon-image"
+            src="#"
             alt="pokemon">
 
         <h1 class="pokemon-data">
-            <span class="pokemon_number">1 -</span>
-            <span class="pokemon_name">charizard</span>
+            <span class="pokemon-number"></span>
+            <span class="pokemon-name"></span>
         </h1>
 
         <form class="search-pokemon">
-            <input type="search" class="input_search" placeholder="Name or Numer">
+            <input 
+            type="search" 
+            class="input-search" 
+            placeholder="Name or Numer"
+            required>
         </form>
 
         <div class="buttons">
@@ -36,6 +39,7 @@
 
         <img class="pokedex" src="assets/background.svg" alt="pokedex">
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
