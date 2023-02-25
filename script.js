@@ -1,8 +1,8 @@
-const pokemonName = document.querySelector('.pokemon-name');
+const pokemonName = document.querySelector('.pokemon-name'); // procura elemento pela Class no HTML
 const pokemonNumber = document.querySelector('.pokemon-number');
-const pokemonImage = document.querySelector('.pokemon-image');
 const buttonPrev = document.querySelector('.Prev');
 const buttonNext = document.querySelector('.Next');
+const pokemonImage = document.getElementById('pokemon-image'); // procura elemento pelo ID no HTML
 
 const form = document.querySelector('.search-pokemon');
 const input = document.querySelector('.input-search');
